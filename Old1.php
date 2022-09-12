@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Old People games</title>
+	<link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+	<?php session_start(); 
+	 ?>
+	<div class="main_heading p-2 text-center" id="Home">
+		
+  		<h1><img src="logo.jpg" align="left" class="image"><span style='font-size:60px;'>&#8458;</span>ames<span style='font-size:60px;'>4</span>u</h1>
+  		<p>Add Fun To Your Life</p> 
+	</div><br><br>
+
+<!---navigation bar-->
+
+	<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+ 	 	<div class="container-fluid">
+    		<div class="collapse navbar-collapse" id="mynavbar">
+      			<ul class="navbar-nav me-auto">
+      				<li class="nav-item" id="nav-item">
+          				<img src="user_logo.jpg" style="height: 35px; width: 35px; border-radius: 20px; margin-top: 6px;">
+        			<spam style="color: white; font-size: 20px; font-weight: 600; margin-right: 28px;" class="btn" ><?php echo $_SESSION['username']; ?></spam></li>
+       	 			<li class="nav-item" id="nav-item">
+          				<button type="button" class="btn btn-outline-light text-dark  m-2"><a href="#Home">Home</a></button>
+        			</li>
+        			<li class="nav-item">
+          				<button type="button" class="btn btn-outline-light text-dark  m-2"><a href="#Contact">Contact</a></button>
+       	 			</li>
+        			<li class="nav-item">
+          				<button type="button" class="btn btn-outline-light text-dark  m-2"><a href="SignIn.html">Logout</a></button>
+        			</li>
+      			</ul>
+    		</div>
+    		<div class="dropdown">
+    			<button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">Old People Games</button>
+    			<ul class="dropdown-menu">
+      				<li><a class="dropdown-item" href="game1.php">Indoor Games Intro</a></li>
+      				<li><a class="dropdown-item" href="Kids1.php">Kids Games</a></li>
+      				<li><a class="dropdown-item" href="Young1.php">Young People games</a></li>
+      				<li><a class="dropdown-item" href="family1.php">Family Games</a></li>
+    			</ul>
+  			</div>
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+  
+		</div>
+	</nav>
+	<br><br><br>
+	<div class="content container" id="content">
+		<h1>Indoor Games For Old People</h1>
+		<h2>1.	Chess and Checkers:</h2>
+		<p>It will help for brain sharping and keeping memory and chess seems to prevent Alzheimer’s for old people
+</p>
+		<img src="chess_old.jpeg" style="height: 400px;width: 350px;" class="img-responsive"><br><br>
+		<p>
+			<b>What You Will Need : </b>
+			<ul>
+				<li>A chess board</li>
+				
+			</ul>
+		</p>
+		<h4>How To play :</h4>
+		<p>Chess is a remarkable game. The rules are deceptively straightforward and easy to learn, but the skills involved are immense. It’s easy to play chess for decades, and never truly stop learning the finer points of the game. Chess is all about strategy, problem-solving, and thinking on your feet, making it a great game to keep seniors engaged and mentally active, while also having fun. Checkers, a modified version of the game with fewer pieces and simpler rules, is also a great option
+</p>
+			
+			<p><b>No. of participants : 2</b></p>
+
+			<h2>2.Word Games (Scrabble, Boggle, Crossword Puzzles, etc.) :</h2>
+		<p>Word games are fun and exciting, but they are also incredibly multi-faceted tools for sharpening our minds. Playing an active word game, like Scrabble or Boggle, is a great way to promote critical thinking, creativity, problem solving, and memory. Even doing a more passive word puzzle together – like a crossword, or a wordsearch – is a great way to help older adults stay focused and improve their recall
+</p>
+		<p>
+			<img src="word_old.jpeg" style="height: 400px;width: 350px;" class="img-responsive"><br><br>
+			<b>What You Will Need : </b>
+			<ul>
+				<li>Paper</li>
+				<li>Pen</li>
+			</ul>
+		</p>
+			
+			<p><b>No. of participants : 1 Or 2</b></p>
+
+			<h2>3. Card Games :</h2>
+		<p>Card games are a great way think spontaneously, have fun, and enjoy one another’s company, and there are plenty of games that can work for any number of players, from two to ten or more. Many older adults grew up playing card games, so be sure to ask them what games they enjoy. Some older adults may prefer more active, thoughtful games, like bridge or poker. For others, it may be more fun to play a more straightforward game, like blackjack or war. Or, look into alternative card games that go beyond the Traditional deck, such as Uno.</p>
+		<img src="card_old.jpeg" style="height: 400px;width: 350px;" class="img-responsive"><br><br>
+		<p>
+			<b>What You Will Need : </b>
+			<ul>
+				<li>A pack of cards</li>
+				
+				
+			</ul>
+		</p>
+		
+		
+			
+			<p><b>No. of participants : 3 or 4</b></p>
+
+			<h2>4. Board Games (Chutes and Ladders, Connect Four, Othello, etc.) :</h2>
+		<p>Playing a board game is a great way to get lots of people involved at once. While some games may have too many moving pieces or rules for elderly players, simple and straightforward games can be a great way for older adults to get engaged and think strategically. Think about dice games like Yahtzee, or visual strategy games like Connect Four or Othello. If your senior can’t move their own pieces, this is a great way to get younger kids involved, as most will probably be more than happy to help out</p>
+		<img src="board_old.jpeg" style="height: 400px;width: 350px;" class="img-responsive"><br><br>
+		<p>
+			<b>What You Will Need : </b>
+			<ul>
+				<li>A game board</li>
+				<li>Dice</li>
+				
+			</ul>
+		</p>
+		
+			
+			<p><b>No. of participants : 2 or 3</b></p>
+
+			<h2>5.Jigsaw Puzzles :</h2>
+		<p>A game doesn’t have to be competitive to be fun! Doing a jigsaw puzzle together can be a great way to get everyone on the same side, as everyone works together to achieve the same goal. Jigsaw puzzles are a great way to work on focus, concentration, and memory. They involve a lot of strategy, planning, problem-solving, and recall, without seeming stressful or overwhelming.</p>
+		<img src="puzzle_old.jpeg" style="height: 400px;width: 350px;" class="img-responsive"><br><br>
+		<p>
+			<b>What You Will Need : </b>
+			<ul>
+				<li>A puzzle board</li>
+				
+			</ul>
+		</p>
+		<h4>How To play :</h4>
+		
+			
+			<p><b>No. of participants : 1</b></p>
+
+	</div>
+	<hr class="container">
+
+	<div class="container">
+
+		<ul class="pagination justify-content-center pg-dark" style="margin:20px 0">
+    <li class="page-item"><a class="page-link" href="Young1.php">&laquo;</a></li>
+    <li class="page-item"><a class="page-link" href="game1.php">1</a></li>
+    <li class="page-item"><a class="page-link" href="Kids1.php">2</a></li>
+    <li class="page-item"><a class="page-link" href="Young1.php">3</a></li>
+    <li class="page-item active"><a class="page-link" href="Old1.php">4</a></li>
+    <li class="page-item"><a class="page-link" href="family1.php">5</a></li>
+    <li class="page-item"><a class="page-link" href="family1.php">&raquo;</a></li>
+  </ul>
+
+  </div>
+  <hr class="container">
+  <div class="container" id="Contact">
+  	<h2>Contact info</h2>
+  	<footer class="text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-facebook"></i></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn  btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-twitter"></i></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #000080;">
+    © Copyright 2022 games4u. All Rights Reserved <br>
+    <a class="text-white" href="#" style="text-decoration: underline;">Tearms & Privacy Policy</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  </div>
+  
+</body>
+</html>

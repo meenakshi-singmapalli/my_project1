@@ -1,0 +1,216 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Games suggester</title>
+	<link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+	<?php session_start(); 
+	 ?>
+
+
+
+	<div class="main_heading p-2 text-center" id="Home">
+		
+  		<h1><img src="logo.jpg" align="left" class="image"><span style='font-size:60px;'>&#8458;</span>ames<span style='font-size:60px;'>4</span>u</h1>
+  		<p>Add Fun To Your Life</p> 
+	</div><br><br>
+
+
+<!---navigation bar-->
+
+	<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+ 	 	<div class="container-fluid">
+    		<div class="collapse navbar-collapse" id="mynavbar">
+      			<ul class="navbar-nav me-auto">
+      				
+      <li class="nav-item" id="nav-item">
+          				<img src="user_logo.jpg" style="height: 35px; width: 35px; border-radius: 20px; margin-top: 6px; ">
+        			<spam style="color: white; font-size: 20px; font-weight: 600; margin-right: 28px;" class="btn" ><?php echo $_SESSION['username']; ?></spam></li>
+       	 			<li class="nav-item" id="nav-item">
+          				<button type="button" class="btn btn-outline-light text-dark m-2"><a href="#Home">Home</a></button>
+        			</li>
+        			<li class="nav-item">
+          				<button type="button" class="btn btn-outline-light text-dark m-2"><a href="#Contact">Contact</a></button>
+       	 			</li>
+        			<li class="nav-item">
+          				<button type="button" class="btn btn-outline-light text-dark m-2"><a href="SignIn.html">Logout</a></button>
+        			</li>
+      			</ul>
+    		</div>
+    		<div class="dropdown">
+    			<button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">Select Your Category</button>
+    			<ul class="dropdown-menu">
+      				<li><a class="dropdown-item" href="Kids1.php">Kids Games</a></li>
+      				<li><a class="dropdown-item" href="Young1.php">Young People Games</a></li>
+      				<li><a class="dropdown-item" href="Old1.php">Old people Games</a></li>
+      				<li><a class="dropdown-item" href="family1.php">Family Games</a></li>
+    			</ul>
+  			</div>
+    		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      			<span class="navbar-toggler-icon"></span>
+    		</button>
+  
+		</div>
+	</nav>
+	<br>
+	<div class="content container" id="content">
+		<h1>Indoor Games</h1>
+		<p style="color: black;">
+			    Games are not simply played for fun, they are probably the anxiety busters that keep us healthy without even letting us know. When students are tired of their hectic study schedule, indoor games are the salvation which they look forward to. No matter if it’s scorching heat or frosty winters,indoor games are all-time games that can be played throughout the year.
+		</p>
+		<p>
+			<b>" Play is a part of education and important for our life. If there is no play, life becomes monotonous. Our brain and body are both exercised when we play games. We may enhance our bodies and minds while learning qualities and lessons by playing indoor games. They also teach us how to be disciplined and polite. We can improve our self-esteem as well as our sense of fair play. We can learn how to follow the rules and regulations correctly "</b>
+		</p>
+		<h2>Types of Indoor Games</h2>
+		<p>
+			Games are classified according to their medium and format. From the conventional, tabletop board video games to the ultra-modern stimulating games, there are numerous types to keep us entertained and lively.
+		</p>
+		<div class="container">
+			<ol>
+				<li>Board Games</li>
+				<li>Card Games</li>
+				<li>Strategy Games</li>
+				<li>Pencil and Paper Games</li>
+				<li>Guessing Games</li>
+				<li>Online Games</li>
+				<li>Lawn Games</li>
+				<li>Educational Games</li>
+				<li>Role Play Games</li>
+			</ol>
+		</div>
+		<h3>1. Board Games</h3>
+		<p>
+			Board games are performed on a flat floor called the "board". They are a well-known table top video game that incorporates features such as cubes and playing pieces. The actions of those pieces manifest as in keeping with a set of policies which the players ought to abide by using! The sport entails plenty of strategic questioning, at the side of a bit of luck! Ludo and Snakes and Ladders are the most basic board games, whereas Advanced Squad Leader is more difficult.
+		</p>
+		<h3>2. Card Games</h3>
+		<p>
+			A card game is any game in which the primary mechanism is playing cards, whether traditional or game-specific. Each deck has 52 cards separated into four suits: Hearts, Spades, Diamonds, and Clubs. The cards range in value from 2 to 10, with the Ace, King, Queen, and Jack being the most valuable. Cards are used in a variety of games, including Poker, Rummy, Solitaire, and others. Card games are typically played for playing and making a living than for mere enjoyment functions.
+		<p>
+			Many classic deck card games have formally regulated rules, and worldwide competitions are held. Still, the majority are folk games, with rules that vary by region, culture, and individual. A deck or pack of identically sized and shaped playing cards is used in a card game. There are two sides to each card: the front and the reverse. There could be duplicates, or all of the cards' faces could be unique. It may shuffle several decks together to produce a single pack or shoe in specific instances.
+		</p>
+		</p>
+		<h3>3. Strategy Games</h3>
+		<p>
+			Board games are performed on a flat floor called the "board". They are a well-known table top video game that incorporates features such as cubes and playing pieces. The actions of those pieces manifest as in keeping with a set of policies which the players ought to abide by using! The sport entails plenty of strategic questioning, at the side of a bit of luck! Ludo and Snakes and Ladders are the most basic board games, whereas Advanced Squad Leader is more difficult.
+		</p>
+		<h3>4.  Pencil and Paper Games</h3>
+		<p>
+			Paper and Pencil games are single-player or multi-player games that require only a piece of paper and a pencil or pen to play. They are inexpensive to play and do not require any additional equipment like boards or dimes. For example, Sudoku, Join the Dots, Tic-Tac-Toe, Pictionary, Bulls and Cows games are developed for children and adults. The challenging part of these games is that you aren't allowed to erase something once it is on paper.
+		</p>
+		<h3>5. Guessing Games</h3>
+		<p>
+			Guessing games are laugh party video games in which the players ought to find out data using positive recommendations. The opponent can use photos, acting, or clues to assist the player in guessing the word. Popular among those games is Guess Who? In which the gamers ought to bet who the individual is based totally on the descriptions. Dumb Charades, Guess the Animal, Guess the Object (by feeling with hands), Hangman (guess the word), and Cup and Ball (guess the position of the ball) are some examples.
+		</p>
+		<h3>6. Online Games</h3>
+		<p>
+			Online video games usually require a generation tool like a pc, gaming console, or telephone with an active net connection. Several of these can be downloaded and played offline if the network is down. These games cover a wide range of topics, from simple board games like Ludo, Chess, and Card Games to extremely realistic shooting games and multi-player role-playing games.
+		</p>
+		<h3>7. Educational Games</h3>
+		<p>
+			Educational games are unique activities that provide the player with educational benefits. They're appropriate for people of all ages, from infants to adults. The games are used as educational tools to broaden conceptual knowledge and develop cognitive skills.
+		</p>
+		<h3>8. Roleplay Games</h3>
+		<p>
+			Roleplay games use fake toys like dolls to inspire creativity and imagination in youngsters. These activities use fake variations of actual-time gadgets like physician's kit, engineer's equipment, kitchen units, lecture room set up etc. To get kids involved in important activities, they also expand learning opportunities and allow for self-expression.
+		</p>
+	</div>
+	<hr class="container">
+
+	<div class="container">
+
+		<ul class="pagination justify-content-center pg-dark" style="margin:20px 0">
+    <li class="page-item disabled"><a class="page-link" href="game1.php">&laquo;</a></li>
+    <li class="page-item active"><a class="page-link" href="game1.php">1</a></li>
+    <li class="page-item"><a class="page-link" href="Kids1.php">2</a></li>
+    <li class="page-item"><a class="page-link" href="Young1.php">3</a></li>
+    <li class="page-item"><a class="page-link" href="Old1.php">4</a></li>
+    <li class="page-item"><a class="page-link" href="family1.php">5</a></li>
+    <li class="page-item"><a class="page-link" href="Kids1.php">&raquo;</a></li>
+  </ul>
+
+  </div>
+  <hr class="container">
+  <div class="container" id="Contact">
+  	<h2>Contact info</h2>
+  	<footer class="text-center text-white">
+  
+  <div class="container p-4 pb-0">
+    
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-facebook"></i></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn  btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-twitter"></i></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-floating m-1"
+        
+        href="#!"
+        role="button"
+        ><i class="fa fa-github"></i
+      ></a>
+    </section>
+    
+  </div>
+  
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #000080;">
+    © Copyright 2022 games4u. All Rights Reserved <br>
+    <a class="text-white" href="#" style="text-decoration: underline;">Tearms & Privacy Policy</a>
+  </div>
+  
+</footer>
+  </div>
+  
+  
+</body>
+</html>
+
